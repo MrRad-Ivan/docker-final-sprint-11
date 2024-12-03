@@ -1,0 +1,7 @@
+создание 
+
+docker build -t mrrad98/sprint11:v1 .
+
+запуск контейнера 
+
+docker run -d -p 8080:8080 mrrad98/sprint11:v1
